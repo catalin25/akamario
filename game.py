@@ -16,7 +16,7 @@ bulletSound = pygame.mixer.Sound('bullet.wav')
 hitSound = pygame.mixer.Sound('hit.wav')
 
 music = pygame.mixer.music.load('music.mp3')
-#pygame.mixer.music.play(-1)
+pygame.mixer.music.play(-1)
 score = 0
 
 class player(object):
